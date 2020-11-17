@@ -1,0 +1,145 @@
+/* reset properties */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Balsamiq Sans', cursive;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: black;
+}
+
+/* setting logo */
+#logo{
+   margin: 15px;
+}
+#logo img{
+    width: 20%;
+}
+
+/* navigation bar setting */
+.navbar{
+    width: 100%;
+    height: 10vh;
+    background: rgba(255, 252, 252, 0.178);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}  
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    
+}
+.navbar ul li {
+     list-style: none;
+     padding-right: 30px;
+}
+a{
+    text-decoration: none;
+    font-weight: 900;
+}
+
+/* list item settings */
+#or{
+    color: black;
+    padding-right: 7px;
+    padding-left: 7px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background: chartreuse;
+    border-radius: 20px;
+}
+#sp{
+    color: white;
+    padding-right: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+/* hover settings */
+#or a:hover{
+    color:black;
+}
+
+#sp:hover{
+    border-top: 2px solid  chartreuse;
+    border-bottom: 2px solid  chartreuse;
+    transition: border 0.1s ease-in-out; 
+}
+
+/* main content settings */
+
+.navmain{
+    color: white;
+    margin-top: 18%;
+    margin-left: 52%;
+}
+.navmain h2{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 2px;   
+}
+.navmain p{
+    font-size: 1.1em;
+    margin-left: 22%;
+    color: chartreuse;
+}
+
+button{
+    margin-left: 73%;
+    margin-top: 80px;
+    border: 2px solid ;
+    border-color:  chartreuse ;
+    background: transparent;
+    color:white;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+hr{
+    width: 220px;
+    margin-left: 30%;
+    padding-bottom: 0px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
